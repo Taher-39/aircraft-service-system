@@ -1,0 +1,28 @@
+.footer{
+    background-image: url('../../../Imgs/footerImg.png');
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width: 600px) {
+    .footer{
+        background-image: url('../../../Imgs/footerImg.png');
+        background-repeat: repeat-y;
+    }
+}
+.brand-name{
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.footer-card{
+    padding-top: 120px !important;
+}
+.footer-card li{
+    list-style: none;
+}
+.footer-card a{
+    text-decoration: none;
+}
+.social-icons img:hover {
+  border-radius: 8px;
+  background-color: white;
+}

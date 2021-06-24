@@ -1,0 +1,26 @@
+.nav-color{
+  background-color: #f1fefe;
+}
+/* .navImg{
+    margin-left: 100px;
+} */
+
+nav h3{
+    color: #374b5c;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+nav a:hover {
+  border-bottom: 3px solid #00dbd0;
+}
+
+nav a.active {
+  border-bottom: 3px solid #00dbd0;
+}
+
+nav h3{
+    border: 2px solid #00dbd0;
+    border-radius: 5px;
+    padding: 5px;
+}
