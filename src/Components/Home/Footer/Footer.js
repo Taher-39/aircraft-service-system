@@ -21,8 +21,8 @@ const Footer = () => {
                             </div>
                         </div>
                         <p className='footer-border text-light py-3'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor
+                            The main function of the inventory system is to define how
+                            many seats are available on a particular flight by opening.
                         </p>
                         <p className='text-light mb-3'>
                             &copy; Copyright 2021 Air-Craft. All Rights Reserved

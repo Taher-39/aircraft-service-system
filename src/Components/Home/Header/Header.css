@@ -22,7 +22,7 @@
     top: 0%;
     left: 5%;
     z-index: 1;
-    background-color: lightcyan;
+    background-color: #f1fefe;
 }
 @media(max-width: 600px){
     .text-overly{
