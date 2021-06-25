@@ -7,6 +7,7 @@ const AirTickets = () => {
         <div>
             <Header></Header>
             <h1 className='my-5 text-center'>AirTickets</h1>
+            
             <Footer></Footer>
         </div>
     );
