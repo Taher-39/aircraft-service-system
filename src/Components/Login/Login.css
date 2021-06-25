@@ -1,0 +1,30 @@
+.main-area{
+    text-align: center;
+}
+.user{
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    box-shadow: 4px 4px 15px gray;
+    max-width: 500px;
+    min-height: 500px;
+    margin: 0 auto;
+}
+.input-area {
+    padding: 50px;
+}
+.input-area input{
+    display: block;  
+}
+.input-area span{
+    text-decoration: underline;
+}
+.input-area span:hover{
+    cursor: pointer;
+}
+.other-option{
+    width: 90%;
+    margin: 0 auto;
+}
+.other-option button{
+    min-height: 50px;
+}

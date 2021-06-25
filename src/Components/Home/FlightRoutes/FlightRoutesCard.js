@@ -1,7 +1,12 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 
 const FlightRoutesCard = (props) => {
-    const { FlightImg, businessClassPrice, economyClassPrice, from, to, distance} = props.route;
+    const { FlightImg, businessClassPrice, economyClassPrice, from, to, id} = props.route;
+    const history = useHistory()
+    const handleBuyTickets = (id) => {
+        history.push(`/getTickets/${id}`)
+    }
     return (
         <div className="col-md-4 col-sm-12 col-xl-3 d-flex justify-content-center my-4" style={{height: '100%'}}>
             <div>
@@ -11,8 +16,8 @@ const FlightRoutesCard = (props) => {
                     <p>Business Class Price: {businessClassPrice}</p>
                     <p>Economy Class Price: {economyClassPrice}</p>
                     <div className="row d-flex justify-content-around">
-                        <button className="btn btn-color text-light my-2">Business Class</button>
-                        <button className="btn btn-color text-light">Economy Class</button>
+                        <button className="btn btn-color text-light my-2" onClick={() => handleBuyTickets(id)}>Business Class</button>
+                        <button className="btn btn-color text-light" onClick={() => handleBuyTickets(id)}>Economy Class</button>
                         {/* onClick={() => handleBuyProduct(_id)}  */}
                     </div>
                 </div>
